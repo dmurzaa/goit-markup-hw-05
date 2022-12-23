@@ -133,7 +133,7 @@ body {
     color: var(--accent-color);
 }
 
-.links {
+.item {
     position: relative;
 }
 
@@ -650,7 +650,7 @@ body {
     margin-top: 0px;
     margin-bottom: 8px;
     color: var(--title-text-color);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -689,8 +689,12 @@ body {
     overflow: hidden;
 }
 
-.portf-item:hover .overlay-thumb {
+.portf-link:hover .overlay-thumb {
     transform: translatey(0);
+}
+
+.portf-link:focus .overlay-thumb {
+    transform: translateY(0);
 }
 
 .overlay-thumb {
